@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+td {
+    height: 25px;
+    vertical-align: bottom;
+
+}
+
+#nav01{
+    background-color: red;
+    color: white;
+    width: auto%;
+    max-width: 900px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 5 5;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+#main{
+    max-width: 900px;
+    margin: auto;
+}
+
+#mine {
+    width: 50%;
+    height: auto;
+    border-style: solid;
+    border-width: medium;
+    border-color: grey;
+    color: black;
+    box-sizing: border-box;
+    float: left;
+    min-height: 300px
+}
+
+#input1 {
+     text-align: center;
+     padding-top: 5%;
+
+}
+
+#name1 {
+    text-align: center;
+}
+
+#type1 {
+    text-align: center;
+}
+
+#sprite1 {
+    text-align: center;
+}
+
+#can1 {
+    width: auto;
+    height: auto;
+}
+
+#statNames1 {
+    transform: rotate(-90deg);
+    text-align: right;
+    border-collapse: collapse;
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+
+#strengths1 {
+    float: right;
+    text-align: center;
+    border-collapse: collapse;
+    display: inline-block;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+#weaknesses1 {
+    float: right;
+    text-align: center;
+    border-collapse: collapse;
+    display: inline-block;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+#yours {
+    width: 50%;
+    height: auto;
+    border-style: solid;
+    border-width: medium;
+    border-color: grey;
+    color: black;
+    box-sizing: border-box;
+    float: right;
+    min-height: 300px
+}
+
+#input2 {
+     text-align: center;
+     padding-top: 5%;
+
+}
+
+#name2 {
+    text-align: center;
+}
+
+#type2 {
+    text-align: center;
+}
+
+#sprite2 {
+    text-align: center;
+}
+
+#can2 {
+    width: auto;
+    height: auto;
+}
+
+#statNames2 {
+    transform: rotate(-90deg);
+    text-align: right;
+    border-collapse: collapse;
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+
+#strengths2 {
+    float: right;
+    text-align: center;
+    border-collapse: collapse;
+    display: inline-block;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+#weaknesses2 {
+    float: right;
+    text-align: center;
+    border-collapse: collapse;
+    display: inline-block;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}

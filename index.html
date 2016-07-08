@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PKMN BTTL</title>
+    <link rel='shortcut icon' href='Images/Pokeball_icon.png' type='image/x-icon' />
+    <link href="site.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body onload="pokeList1(); pokeList2()">
+
+    <nav id="nav01">PKMN BTTL</nav>
+
+    <div id="main">
+        <div id="mine">
+            <div id="input1">
+                <input type="text" id="poke1" list="pokemon1" placeholder="type your pokemon">
+                <datalist id="pokemon1"></datalist>
+                <button onclick="pkmn(1)">I choose you!</button>
+            </div>
+
+            <h1 id="name1"></h1>
+            <h2 id="type1"></h2>
+            <p id="sprite1"></p>
+            <canvas id="can1"></canvas>
+            <table id="statNames1"></table>
+            <table id="weaknesses1"></table>
+            <table id="strengths1"></table>
+        </div>
+
+        <div id="yours">
+            <div id="input2">
+                <input type="text" id="poke2" list="pokemon2" placeholder="type their pokemon">
+                <datalist id="pokemon2"></datalist>
+                <button onclick="pkmn(2)">they choose you!</button>
+            </div>
+
+            <h1 id="name2"></h1>
+            <h2 id="type2"></h2>
+            <p id="sprite2"></p>
+            <canvas id="can2"></canvas>
+            <table id="statNames2"></table>
+            <table id="weaknesses2"></table>
+            <table id="strengths2"></table>
+        </div>
+
+        <footer id="foot01"></footer>
+    </div>
+
+
+</body>
+
+</html>
