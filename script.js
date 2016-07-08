@@ -23,7 +23,7 @@ function pokeList1() {
     };
     input.placeholder = "Loading pokemon..."; //while pokemon load in the data list
 
-    request.open("GET", "http://pokeapi.co/api/v2/pokemon/?limit=811", true); //use the GET call to go to the list of pokemon from the api
+    request.open("GET", "//pokeapi.co/api/v2/pokemon/?limit=811", true); //use the GET call to go to the list of pokemon from the api
     request.send(); //send XMLHttpRequest
 }
 
