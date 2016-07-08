@@ -50,7 +50,7 @@ function pokeList2() { //same as pokeList1 but for the other persons pokemon
     };
     input.placeholder = "Loading pokemon...";
 
-    request.open("GET", "http://pokeapi.co/api/v2/pokemon/?limit=811", true);
+    request.open("GET", "//pokeapi.co/api/v2/pokemon/?limit=811", true);
     request.send();
 }
 
@@ -62,7 +62,7 @@ function pkmn(number) {//display pokemon name type picture create a chart and po
             pokeInfo(request.responseText);
         }
     };
-    request.open("GET", "http://pokeapi.co/api/v2/pokemon/" + poke, true);
+    request.open("GET", "//pokeapi.co/api/v2/pokemon/" + poke, true);
     request.send();
 
     function pokeInfo(response) {//display name type picture from the api request to html
@@ -217,7 +217,7 @@ function strengthsWeaknesses(number) {//create table of pokemons strengths and w
         }
     };
     var type = deCapitalizeFirstLetter(document.getElementById("type" + number).innerHTML.split(" ")[0]);
-    request.open("GET", "http://pokeapi.co/api/v2/type/" + type, true);
+    request.open("GET", "//pokeapi.co/api/v2/type/" + type, true);
     request.send();
 
     function damageTable(response) {//use pokemon type object to create a table of strengths and weaknesses
